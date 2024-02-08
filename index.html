@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Abhishek kumar sinha</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Abhishek kumar sinha</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="profile.jpeg" alt="Abhishek kumar sinha profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Abhishek kumar sinha</h1>
+        <p class="section__text__p2"> Senior Data Analyst</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('resume-abhi.docx')">
+            Download RESUME
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="window.open('https://www.linkedin.com/in/abhishek-k-sinha/', '_blank')"
+          />
+          <img
+            src="github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="window.open('https://github.com/Abhisheksinha1830')"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="profile-pic-abhi.jpeg" alt="Profile picture" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="experience.png" alt="Experience icon" class="icon" />
+              <h3>Experience</h3>
+              <p><b>Financial Analyst</b> - Northeastern University
+                Boston, USA</p>
+                <p><b>Senior Data Analyst</b> - Ganit Inc Chennai, India</p>                                                                                                                                              
+            </div>
+            
+          </div>
+          <div class="text-container">
+            <p>
+              As a Master of Science in Data Analytics Engineering student at Northeastern University, I am passionate about uncovering insights from data and applying them to real-world problems. My strong background in data science, statistics, and machine learning enables me to tackle complex challenges and deliver data-driven solutions.
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <p class="section__text__p1">
+        Currently working as a Financial Analyst and previously worked as a senior data analyst at Ganit Inc, a leading data analytics firm, where I collaborated with cross-functional teams and clients across various domains, such as <b>BFSI</b> ,<b>CPG</b>, and <b>healthCare</b>. I engineered and implemented machine learning models to optimize processes, enhance customer experiences, and forecast outcomes. I also developed data visualizations and interactive dashboards to facilitate data-driven discussions and decision-making. Some of my notable achievements include increasing sales target accuracy by <b>11%</b> , reducing SKU wastage by <b>15%</b>, and improving inventory forecast accuracy by <b>13%</b>.</p>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title"> Statistical and Analytical tools</h2>
+            <div class="article-container">
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Python</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>MongoDB</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>R</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              
+            </div>
+
+            <h2 class="experience-sub-title">Visualization tools</h2>
+            <div class="article-container">
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Tableau</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>PowerBI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Microsoft Excel</h3>
+                  <p>Experienced</p>
+                </div>
+              
+              
+            </div>
+
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Machine Learning</h2>
+            <div class="article-container">
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Random Forest</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>KNN</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>SVM</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Decision Tree</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Linear and Logistic Regression</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>K-means clustering</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              
+            </div>
+          </div>
+
+          <div class="details-container">
+            <h2 class="experience-sub-title"> Statistics</h2>
+            <div class="article-container">
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>ARIMA</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>BSTS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Hypothesis testing</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>LSTM</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Financial Forecasting</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Covariance</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>correlation</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              
+            </div>
+          </div>
+
+          <div class="details-container">
+            <h2 class="experience-sub-title">IDE & Tools</h2>
+            <div class="article-container">
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>GitHub</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Jupyter Notebook</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Google Colab</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>R-Studio</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>AWS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Bayesian model</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              
+              
+            </div>
+          </div>
+
+          <div class="details-container">
+            <h2 class="experience-sub-title">Soft Skills</h2>
+            <div class="article-container">
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Communication</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Presentation</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Problem solving</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Time management</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Initiative</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Teamwork</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Planning</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              
+              
+            </div>
+          </div>
+          
+
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">Taxi Service Analysis</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/Abhisheksinha1830/Data-Engineering-Project-Taxi-data')"
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">
+              Stroke risk prediction
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/Abhisheksinha1830/Stroke-Prediction')"
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">International Employee Immigration Management Data</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/Abhisheksinha1830/International-Employee-Immigration-Data-Management')"
+              >
+                Github
+              </button>
+             
+            </div>
+          </div>
+          <div class="details-container color-container">
+            
+            <h2 class="experience-sub-title project-title">
+              Cricket Worldcup23 prediction
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/Abhisheksinha1830/cricket-worldcup-23-prediction')"
+              >
+                Github
+              </button>
+             
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">EEG Classification Mode</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/Abhisheksinha1830/EEG-Classification-model')"
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">Customer Segmentation using RFM Analysis</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/Abhisheksinha1830/Customer-Segmentation-using-RFM-Analysis')"
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">Cleaning, Analyzing and Forecasting Crime Data</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/Abhisheksinha1830/Crime-Rate-analysis')"
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">Analysis of University Query Database </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://public.tableau.com/app/profile/abhishek.sinha2708/viz/AnalysisoftheUniversityqueryDatabase/Story1')"
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:sinha.ab@northeastern.edu" target="_blank"
+              >sinha.ab@northeastern.edu</a
+            >
+          </p>
+        </div>
+
+        <div class="contact-info-container">
+          <img src="mobile.jpg" alt="Mobile icon" class="icon contact-icon" />
+          <p>
+            <a href="tel:+1(857)-961-6419">+1(857)-961-6419</a>
+          </p>
+        </div>
+
+        <div class="contact-info-container">
+          <img
+            src="linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/abhishek-k-sinha/" target="_blank"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Abhishe Kumar Sinha. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
